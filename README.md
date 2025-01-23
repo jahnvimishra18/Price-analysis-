@@ -1,12 +1,12 @@
-## Product Pricing Analysis Tool
+# Product Pricing Analysis Tool
 
 Welcome to the Product Pricing Analysis Tool! This tool is designed to help small business owners track their product prices compared to market trends, so they can make smarter pricing decisions.
 
-# Project Overview
+## Project Overview
 
 This project takes product data from a CSV file, compares it to market prices, and generates useful insights to guide pricing strategies.
 
-# What's Inside
+## What's Inside
 
 10EQS-Evaluation/
 │-- data/
@@ -20,7 +20,7 @@ This project takes product data from a CSV file, compares it to market prices, a
 │-- requirements.txt       # Dependencies
 │-- report.md              # Generated insights
 
-# Getting Started
+## Getting Started
 
 Follow these simple steps to get up and running:
 
@@ -37,13 +37,13 @@ pip install -r requirements.txt
 
 3. Run the Analysis
 
-# To analyze your product prices, just run:
+## To analyze your product prices, just run:
 
 python src/analysis.py data/products.csv
 
 This will compare your prices with market conditions and provide insights.
 
-# What You'll Get
+## What You'll Get
 
 1. report.md - A summary of your pricing insights.
 
@@ -51,7 +51,7 @@ This will compare your prices with market conditions and provide insights.
 
 3. price_comparison.png - A visual comparison of your prices vs market prices.
 
-# What's in the Report?
+## What's in the Report?
 
 The generated report.md will include:
 
@@ -70,19 +70,19 @@ The generated report.md will include:
 - Organic Coffee Beans (1lb) is priced at $14.99 while the market price is $15.50. Suggested Action: Increase Price.
 - Premium Green Tea (50 bags) is priced at $8.99 while the market price is $9.50. Suggested Action: Increase Price.
 
-# Visualization
+## Visualization
 
 You'll get an easy-to-understand bar chart comparing your prices with market rates. The chart is saved as price_comparison.png.
 
-# Known Limitations
+## Known Limitations
 
 1. The market prices are from a mock dataset, so for real analysis, update market_prices.json with actual values.
 
 2. The tool assumes clean data; if your input has unexpected formats, adjustments may be needed.
 
-## Estimated Time Breakdown
+# Estimated Time Breakdown
 
-# Time Required
+## Time Required
 
 Setting up the environment - 15 mins
 
@@ -92,7 +92,7 @@ Generating insights - 15 mins
 
 Creating visuals - 10 mins
 
-# Future Improvements
+## Future Improvements
 
 1. We have ideas to make this even better:
 
@@ -102,6 +102,6 @@ Creating visuals - 10 mins
 
 4. Add automated alerts when price trends change.
 
-# License
+## License
 
 This project is licensed under the MIT License.
